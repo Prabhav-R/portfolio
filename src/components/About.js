@@ -8,7 +8,7 @@ function About() {
           <h5>About</h5>
           <h1>Let me introduce myself.</h1>
           <div className="intro-info">
-            <img src="images/mypic.jpg" alt="Profile Picture" />
+            <img src="images/mypic.jpg" alt="Profile" />
             <p className="lead">
               I'm a person who enjoys automating boring day to day stuff with
               code, solving challenging problems(also writing code), and
@@ -94,6 +94,7 @@ function About() {
           <a
             href="https://www.linkedin.com/in/prabhav-rajeev/"
             target="_blank"
+            rel="noopener noreferrer"
             title="Hire Me"
             className="button stroke smoothscroll"
           >

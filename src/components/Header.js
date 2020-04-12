@@ -1,16 +1,13 @@
 import React, { useEffect } from "react";
-import { Link } from "react-router-dom";
 import $ from "jquery";
 
 function Header() {
   useEffect(() => {
-    console.log("component did mount");
-
     var toggleButton = $(".menu-toggle"),
       nav = $(".main-navigation");
 
     // toggle button
-    toggleButton.on("click", function(e) {
+    toggleButton.on("click", function (e) {
       e.preventDefault();
       toggleButton.toggleClass("is-clicked");
       nav.slideToggle();
@@ -20,7 +17,7 @@ function Header() {
     <header>
       <div className="row">
         <div className="top-bar">
-          <a className="menu-toggle" href="#">
+          <a className="menu-toggle" href="/#">
             <span>Menu</span>
           </a>
 

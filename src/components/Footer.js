@@ -9,6 +9,7 @@ function Footer() {
             <li>
               <a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.linkedin.com/in/prabhav-rajeev/"
               >
                 <i className="fa fa-linkedin" />
@@ -16,12 +17,16 @@ function Footer() {
             </li>
 
             <li>
-              <a href="#">
+              <a className="smoothscroll" title="Back to Top" href="#top">
                 <i className="fa fa-twitter" />
               </a>
             </li>
             <li>
-              <a target="_blank" href="https://github.com/Prabhav-R">
+              <a
+                rel="noopener noreferrer"
+                target="_blank"
+                href="https://github.com/Prabhav-R"
+              >
                 <i className="fa fa-github" />
               </a>
             </li>

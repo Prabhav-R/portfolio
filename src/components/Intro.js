@@ -21,18 +21,26 @@ function Intro() {
       {/* /intro-content */}
       <ul className="intro-social">
         <li>
-          <a target="_blank" href="https://www.linkedin.com/in/prabhav-rajeev/">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://www.linkedin.com/in/prabhav-rajeev/"
+          >
             <i className="fa fa-linkedin" />
           </a>
         </li>
 
         <li>
-          <a href="#">
+          <a className="smoothscroll" title="Back to Top" href="#top">
             <i className="fa fa-twitter" />
           </a>
         </li>
         <li>
-          <a target="_blank" href="https://github.com/Prabhav-R">
+          <a
+            target="_blank"
+            rel="noopener noreferrer"
+            href="https://github.com/Prabhav-R"
+          >
             <i className="fa fa-github" />
           </a>
         </li>
