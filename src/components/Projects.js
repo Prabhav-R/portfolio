@@ -5,7 +5,7 @@ function Projects() {
     <section id="portfolio">
       <div className="row section-intro">
         <div className="col-twelve">
-          <h5>Portfolio</h5>
+          {/* <h5>Portfolio</h5> */}
           <h1>Check Out Some of My Works.</h1>
           <p className="lead">"What I cannot create, I do not understand."</p>
         </div>

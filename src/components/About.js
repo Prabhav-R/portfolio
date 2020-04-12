@@ -92,6 +92,13 @@ function About() {
       <div className="row button-section">
         <div className="col-twelve">
           <a
+            className="button stroke smoothscroll"
+            title="Hire Me"
+            href="#contact"
+          >
+            Hire Me
+          </a>
+          {/* <a
             href="https://www.linkedin.com/in/prabhav-rajeev/"
             target="_blank"
             rel="noopener noreferrer"
@@ -99,7 +106,7 @@ function About() {
             className="button stroke smoothscroll"
           >
             Hire Me
-          </a>
+          </a> */}
           {/* <a
             id="downloadcv"
             href="#"

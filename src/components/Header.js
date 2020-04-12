@@ -33,14 +33,10 @@ function Header() {
                   About
                 </a>
               </li>
-              <li>
-                <a className="smoothscroll" href="#downloadcv">
-                  Resume
-                </a>
-              </li>
+
               <li>
                 <a className="smoothscroll" href="#portfolio">
-                  Portfolio
+                  Projects
                 </a>
               </li>
 
